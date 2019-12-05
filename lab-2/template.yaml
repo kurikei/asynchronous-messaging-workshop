@@ -56,10 +56,10 @@ Resources:
         Name: id
         Type: String
 
-#  RideCompletionTopic:
-#    Type: AWS::SNS::Topic
-#    Properties:
-#      TopicName: RideCompletionTopic
+  RideCompletionTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: RideCompletionTopic
 
   CustomerAccountingService:
     Type: AWS::Serverless::Function
